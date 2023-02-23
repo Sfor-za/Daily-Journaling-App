@@ -1,0 +1,42 @@
+
+.para{
+    color: green;
+}
+.tools{
+    margin:2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.tools>button{
+    margin: 0 1rem 1rem 1rem;
+    background-color:rgba(0, 0,0, 0.0);
+    color:white;
+    border: none;
+    
+}
+.tools>button:hover{
+    background-color:rgba(255,255,255);
+    border: none;
+    color: black;
+    
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.journal-page{
+    width:70% ;
+    height: 90%;
+}
+textarea{
+    resize: none;
+    background-color:rgba(0, 0,0,1);;
+    color: white;
+    border: none;
+}
+textarea:focus{
+    border: none;
+    outline: none;
+}
